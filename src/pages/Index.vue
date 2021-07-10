@@ -5,7 +5,8 @@
     <Benefit class="py-24 md:py-48 bg-white"/>
     <Grid class="my-24" :cards="services" title="Our Services"/>
     <Testimonials class="py-24 bg-white"/>
-    <Contact class="py-24" />
+    <Examples class="py-24"/>
+    <Contact class="py-24 bg-white" />
     <!-- <Services/> -->
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
   </div>
@@ -18,6 +19,7 @@ import Services from '../components/Services.vue'
 import Benefit from '../components/Benefit.vue'
 import Contact from '../components/Contact.vue'
 import Testimonials from '../components/Testimonials.vue'
+import Examples from '../components/Examples.vue'
 export default {
   data() {
     return {
@@ -39,7 +41,8 @@ export default {
     Services,
     Benefit,
     Contact,
-    Testimonials
+    Testimonials,
+    Examples
   },
   metaInfo: {
     title: 'Hello, world!'

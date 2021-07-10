@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'main': ['Poppins', 'sans-serif']
+      'main': ['Poppins', 'sans-serif'],
+      'secondary': ['Roboto', 'sans-serif']
     },
     extend: {
       height: {
@@ -25,6 +26,9 @@ module.exports = {
         '120': '48rem',
         '124': '52rem',
         '128': '56rem',
+        '132': '60rem',
+        '136': '64rem',
+        '140': '68rem',
       },
       minWidth: {
         '100': '28rem',
