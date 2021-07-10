@@ -1,0 +1,18 @@
+{
+  "name": "build-test",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "gridsome": "^0.7.0",
+    "vue-glide-js": "^1.3.14"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+  }
+}
