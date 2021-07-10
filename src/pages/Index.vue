@@ -2,10 +2,10 @@
   <div class="w-full">
     <Hero class="z-0"/>
     <Grid class="my-24" :cards="benefits" title="Why Us?"/>
-    <Benefit class="my-24 md:my-48"/>
+    <Benefit class="py-24 md:py-48 bg-white"/>
     <Grid class="my-24" :cards="services" title="Our Services"/>
-    <Testimonials class="my-24"/>
-    <Contact />
+    <Testimonials class="py-24 bg-white"/>
+    <Contact class="py-24" />
     <!-- <Services/> -->
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
   </div>
