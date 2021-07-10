@@ -1,6 +1,6 @@
 <template>
 <div class="text-center">
-  <div class="text-4xl font-bold mb-12">{{title}}</div>
+  <div class="text-3xl md:text-4xl font-bold mb-12">{{title}}</div>
 
   <Carousel :data="cards" class="lg:hidden"/>
 

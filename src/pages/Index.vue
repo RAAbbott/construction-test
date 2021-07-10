@@ -2,8 +2,9 @@
   <div class="w-full">
     <Hero class="z-0"/>
     <Grid class="my-24" :cards="benefits" title="Why Us?"/>
-    <Benefit class="my-48"/>
+    <Benefit class="my-24 md:my-48"/>
     <Grid class="my-24" :cards="services" title="Our Services"/>
+    <Testimonials class="my-24"/>
     <Contact />
     <!-- <Services/> -->
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
@@ -16,6 +17,7 @@ import Grid from '../components/Grid.vue'
 import Services from '../components/Services.vue'
 import Benefit from '../components/Benefit.vue'
 import Contact from '../components/Contact.vue'
+import Testimonials from '../components/Testimonials.vue'
 export default {
   data() {
     return {
@@ -36,7 +38,8 @@ export default {
     Grid,
     Services,
     Benefit,
-    Contact
+    Contact,
+    Testimonials
   },
   metaInfo: {
     title: 'Hello, world!'

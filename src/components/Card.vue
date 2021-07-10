@@ -6,7 +6,7 @@
   </div> -->
   <div class="h-100 w-96 rounded-xl shadow-sm hover:shadow-lg text-center border bg-white p-2">
     <g-image :src="require(`../../static/${data.image}.jpeg`)" class="object-cover p-4"/>
-    <div class="text-3xl mb-2">{{data.title}}</div>
+    <div class="text-2xl md:text-3xl mb-2">{{data.title}}</div>
     <div class="px-12 text-sm text-gray-700">{{data.text}}</div>
   </div>
 </template>
