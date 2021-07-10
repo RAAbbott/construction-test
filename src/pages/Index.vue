@@ -27,9 +27,9 @@ export default {
         {id: 3, icon: 'handyman', image: 'quality', title: 'Quality', text: 'The quality of our craftsmanship is unparalleled. We take immense pride in our work and will make sure every aspect of your home is exactly how you envisioned it.'},
       ],
       services: [
-        {id: 1, image: 'design', title: 'Construction Design', text: 'We are a team of highly experienced and specialized individuals who make sure that every decision we make is qualified. From the research that goes into the design, to putting in the last nail, you can trust us through every step of the process.'},
-        {id: 2, image: 'commercial', title: 'Commercial Builds', text: 'When it comes to reliability, we\'re number one. We\'re here to help you every step of the way, and we won\'t stop until you\'re satifsied. It\'s what we do!'},
-        {id: 3, image: 'residence', title: 'Residential Properties', text: 'The quality of our craftsmanship is unparalleled. We take immense pride in our work and will make sure every aspect of your home is exactly how you envisioned it.'},
+        {id: 1, image: 'design', title: 'Construction Design', text: 'One of the most important parts of any build process: the design. We make sure you have a concrete and well-planned design that is created based on what YOU want.'},
+        {id: 2, image: 'commercial', title: 'Commercial Builds', text: 'Commercial buildings are large and sometimes complicated projects - projects that we are up for 100%. We\'ve built numerous commercial buildings and are confident we can do what you need.'},
+        {id: 3, image: 'residence', title: 'Residential Properties', text: 'Home is where the heart is, and we respect that. We make sure your home is the best it can be. It\'s a place where memories are made, and families are strengthened.'},
       ]
     }
   },
