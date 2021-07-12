@@ -32,14 +32,14 @@
 
 
     <!-- Main Content -->
-    <div class="w-full overflow-y-scroll pb-48">
+    <div class="w-full overflow-y-scroll">
       <slot/>
     </div>
 
 
 
     <!-- Footer -->
-    <footer class="h-64 bg-black w-full text-white">
+    <footer class="h-72 bg-black w-full text-white">
       FOOTER
     </footer>
 

@@ -1,6 +1,12 @@
 <template>
-  <div class="flex flex-row flex-wrap justify-center items-start w-136">
-      <div class="h-64 w-64 bg-blue-400 border border-gray-100 m-4" styles="flex: 1 0 calc(25% - 10px);" v-for="i in 9" :key="i">
+  <div class="flex flex-col md:flex-row flex-wrap justify-center items-center md:items-start w-screen xl:w-156">
+      <div class="w-96 h-96 box-border bg-blue-400 border border-gray-100 m-4 flex-initial hidden xl:block" v-for="i in 9" :key="i">
+          Image
+      </div>
+      <div class="w-96 h-96 box-border bg-blue-400 border border-gray-100 m-4 flex-initial md:block hidden" v-for="i in 8" :key="i">
+          Image
+      </div>
+        <div class="w-96 h-96 box-border bg-blue-400 border border-gray-100 m-4 flex-initial md:hidden" v-for="i in 4" :key="i">
           Image
       </div>
   </div>

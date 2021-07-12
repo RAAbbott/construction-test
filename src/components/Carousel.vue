@@ -1,5 +1,5 @@
 <template>
-  <vue-glide :type="carousel" :perView="1">
+  <vue-glide type="carousel" :perView="1">
       <vue-glide-slide class="pb-6" v-for="card in data" :key="card.id">
         <Card class="mx-auto" :data="card"/>
       </vue-glide-slide>
