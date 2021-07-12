@@ -5,7 +5,7 @@
     <header class="hidden lg:flex flex-row justify-between items-center h-28 px-8 xl:px-24 text-black">
       <strong class="text-2xl">
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        <span class="font-semibold ml-16 text-base relative"><span class="material-icons absolute bottom-0 -left-7">call</span>1-800-325-4516</span>
+        <span class="font-semibold ml-16 text-base relative"><span class="material-icons absolute bottom-0 -left-7">call</span>{{faker.phone.phoneNumber()}}</span>
       </strong>
       <nav>
         <g-link class="nav__link mr-4 font-semibold text-gray-700" to="/quote/">SERVICES</g-link>
@@ -48,10 +48,12 @@
 </template>
 
 <script>
+import faker from 'faker'
 export default {
   data() {
     return {
-      showMenu: false
+      showMenu: false,
+      faker
     }
   },
 
