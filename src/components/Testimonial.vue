@@ -1,5 +1,5 @@
 <template>
-    <div class="w-100 px-6 text-center mb-12 bg-white rounded-lg py-6 shadow-md">
+    <div class="w-96 px-6 text-center mb-12 bg-white rounded-lg py-6 shadow-md">
         <span class="material-icons" style="font-size:48px">format_quote</span>
         <div>{{text}}</div>
         <g-image class="h-24 w-24 rounded-full mx-auto mt-12" :src="faker.image.avatar()" />
