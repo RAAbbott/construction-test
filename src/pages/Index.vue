@@ -1,12 +1,12 @@
 <template>
   <div class="w-full">
     <Hero class="z-0"/>
-    <Grid class="my-24" :cards="benefits" title="Why Us?"/>
+    <Grid class="py-24" :cards="benefits" title="Why Us?"/>
     <Benefit class="py-24 md:py-48 bg-white"/>
-    <Grid class="my-24" :cards="services" title="Our Services"/>
-    <Examples class="py-24 bg-white"/>
+    <Grid class="py-24" :cards="services" title="Our Services" id="services"/>
+    <Examples class="py-24 bg-white" id="examples"/>
     <Testimonials class="py-24"/>
-    <Contact class="py-24 bg-white" />
+    <Contact class="py-24 bg-white" id="contact"/>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
   </div>
 </template>
